@@ -1,5 +1,5 @@
 ---
-title: "Tank Game Dev Log #5: Drive"
+title: "Tank Game Dev Log #5: Drive."
 date: 2025-04-27
 rank: 0
 summary: Added driving controls.
