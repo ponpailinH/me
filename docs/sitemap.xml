@@ -2,22 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iambaangkok.github.io/me/tags/3dmodel/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/tags/dev-log/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/tags/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/video-games/25-04-27-tank-game-dev-log-%235---drive./</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/tags/tankgame/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/tags/video-game/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/video-games/</loc>
+    <lastmod>2025-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/video-games/25-04-26-tank-game-dev-log-%233---turret-model/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/video-games/25-04-26-tank-game-dev-log-%234---hit-goes-boom/</loc>
+    <lastmod>2025-04-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/video-games/25-04-20-tank-game-dev-log-%232---trajectory/</loc>
+    <lastmod>2025-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/video-games/25-04-19-tank-game-dev-log-%231---initial/</loc>
+    <lastmod>2025-04-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://iambaangkok.github.io/me/shaders/25-03-05-chromic-cds/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iambaangkok.github.io/me/tags/glsl/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iambaangkok.github.io/me/</loc>
-    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://iambaangkok.github.io/me/shaders/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iambaangkok.github.io/me/tags/shaders/</loc>
-    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iambaangkok.github.io/me/tags/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iambaangkok.github.io/me/shaders/25-03-02-neon-grid/</loc>
@@ -63,9 +93,6 @@
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iambaangkok.github.io/me/my-games/rootai/</loc>
-    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iambaangkok.github.io/me/tags/video-game/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iambaangkok.github.io/me/boardgames/24-03-26-flatline-dev-log---initial-concept/</loc>

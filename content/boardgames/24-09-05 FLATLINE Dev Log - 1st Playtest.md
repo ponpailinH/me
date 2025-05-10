@@ -10,6 +10,7 @@ autonumber: true
 math: true
 tags:
   - board-game
+  - dev-log
   - FLATLINE
 showTags: true
 hideBackToTop: false

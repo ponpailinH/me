@@ -66,6 +66,10 @@ name = "my-games"
 url = "my-games"
 
 [[params.menu]]
+name = "video-games"
+url = "video-games"
+
+[[params.menu]]
 name = "boardgames"
 url = "boardgames"
 
