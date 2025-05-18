@@ -12,7 +12,6 @@ tags:
   - video-game
   - dev-log
   - TankGame
-  - 3DModel
 showTags: true
 hideBackToTop: false
 ---
