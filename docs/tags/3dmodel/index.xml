@@ -6,8 +6,15 @@
     <description>Recent content in 3DModel on iambaangkok.me | portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iambaangkok.github.io/me/tags/3dmodel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tank Game Dev Log #7: MBT-A &amp; Next-step</title>
+      <link>https://iambaangkok.github.io/me/video-games/25-05-21-tank-game-dev-log-%237/</link>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://iambaangkok.github.io/me/video-games/25-05-21-tank-game-dev-log-%237/</guid>
+      <description>Added a new tank model</description>
+    </item>
     <item>
       <title>Tank Game Dev Log #3: Turret Model</title>
       <link>https://iambaangkok.github.io/me/video-games/25-04-26-tank-game-dev-log-%233---turret-model/</link>

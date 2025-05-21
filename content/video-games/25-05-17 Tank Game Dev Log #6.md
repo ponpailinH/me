@@ -27,7 +27,7 @@ I do this by:
 6. add some min-max pitch constraint
 7. viola!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">added third person mouse / camera aim!🎦<br>with pitch min-max limit<br>works on inclined ground too<br><br>tbh i found that you can translate the target vector to the turret&#39;s local vector and that made things way easier to work with<br><br>(i was trying to &quot;rotate&quot; the pitch and yaw) <a href="https://t.co/Qbw2rjGuU4">https://t.co/Qbw2rjGuU4</a> <a href="https://t.co/1Q77E7oEpl">pic.twitter.com/1Q77E7oEpl</a></p>&mdash; meisbkkkkkkk (@meisbk) <a href="https://twitter.com/meisbk/status/1923943226681197064?ref_src=twsrc%5Etfw">May 18, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">added third person mouse / camera aim!🎦<br>with pitch min-max limit<br>works on inclined ground too<br><br>tbh i found that you can translate the target vector to the turret&#39;s local vector and that made things way easier to work with<br><br>(i was trying to &quot;rotate&quot; the pitch and yaw) <a href="https://t.co/Qbw2rjGuU4">https://t.co/Qbw2rjGuU4</a> <a href="https://t.co/1Q77E7oEpl">pic.twitter.com/1Q77E7oEpl</a></p>&mdash; meisbkkkkkkk (@meisbk) <a href="https://twitter.com/meisbk/status/1923943226681197064?ref_src=twsrc%5Etfw">May 18, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 # Gallery
