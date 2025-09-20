@@ -1,4 +1,4 @@
-# baseURL = 'http://127.0.0.1:5500/public' ## for local live server
+# baseURL = 'http://127.0.0.1:1313/public' ## for local live server
 baseURL = 'https://iambaangkok.github.io/me' ## for deploy to github pages at /docs
 languageCode = 'en-us'
 title = 'iambaangkok.me | portfolio'
@@ -67,6 +67,10 @@ url = ""
 [[params.menu]]
 name = "my-games"
 url = "my-games"
+
+[[params.menu]]
+name = "posts"
+url = "posts"
 
 [[params.menu]]
 name = "video-games"
