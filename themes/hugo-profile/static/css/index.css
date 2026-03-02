@@ -86,8 +86,9 @@ header .navbar.animate {
     left: -150px;
 }
 
-#hero .subtitle {
-    font-size: clamp(14px,5vw,16px);
+#hero .intro {
+    /* font-size: clamp(14px,5vw,16px); */
+    font-size: clamp(18px, 5vw, 24px);
     opacity: 0.6;
 }
 
@@ -102,6 +103,7 @@ header .navbar.animate {
 }
 
 #hero p {
+    font-size: clamp(18px, 5vw, 24px);
     margin: 20px 0px 0px;
     max-width: 640px;
     opacity: 0.8;
