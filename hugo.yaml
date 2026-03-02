@@ -152,9 +152,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Kiki."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    title: "Ponpailin Homsombut"
+    subtitle: "I explore the algorithmic limits of geometric structures"
+    content: "I am a master’s student at JAIST in Uehara Laboratory. My research lies at the intersection of computational geometry and complexity theory, focusing on tiling, symmetry, and undecidability in geometric systems."
     image: images/hero.svg
     bottomImage:
       enable: true
@@ -167,10 +167,10 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
+        - icon: fab fa-linkedin
+          url: "www.linkedin.com/in/ponpailin-homsombut-4863a6255"
+        - icon: fab fa-x-gmail
+          url: "mailto:ponpailinhomsombut@gmail.com"
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
