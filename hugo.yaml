@@ -10,21 +10,8 @@ defaultContentLanguageInSubdir: false
 
 languages:
   en:
-    languageName: "English"
-    weight: 1
-    contentDir: "content"
     menu:
-      main:
-        - identifier: blog
-          name: Blog
-          title: Blog posts
-          url: /blogs
-          weight: 1
-        - identifier: gallery
-          name: Gallery
-          title: Image gallery
-          url: /gallery
-          weight: 2
+      main: []
 
 outputs:
   home:
@@ -51,13 +38,7 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: gallery
-      name: Gallery
-      title: Gallery
-      url: /gallery
-      weight: 2
+
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -77,10 +58,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "Kiki Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "fav.png"
+  favicon: logo.jpg
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -133,7 +114,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Kiki Profile" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -152,27 +133,27 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Ponpailin Homsombut"
+    title: "Ponpailin Homsombut (Kiki)"
     subtitle: "I explore the algorithmic limits of geometric structures"
     content: "I am a master’s student at JAIST in Uehara Laboratory. My research lies at the intersection of computational geometry and complexity theory, focusing on tiling, symmetry, and undecidability in geometric systems."
-    image: images/hero.svg
+    image: logo.jpg
     bottomImage:
-      enable: true
+      enable: false
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://drive.google.com/file/d/1Xd7BPTSdQxdgd4KnZuSmckM9AsU4rG_K/view"
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
           url: "www.linkedin.com/in/ponpailin-homsombut-4863a6255"
-        - icon: fab fa-x-gmail
+        - icon: fab fa-gmail
           url: "mailto:ponpailinhomsombut@gmail.com"
       customIcons:
-        - icon: /fav.png
+        - icon: logo.jpg
           url: "https://example.com"
 
   # About
@@ -181,9 +162,9 @@ params:
     title: "About Me"
     image: "images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      I am a master’s student at the Japan Advanced Institute of Science and Technology (JAIST) working in the [Uehara Laboratory](https://www.jaist.ac.jp/english/laboratory/cs/uehara.html). With a background in mathematics, my research focuses on theoretical computer science, particularly computational geometry and tiling problems.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am interested in exploring how simple geometric constraints can lead to complex computational behavior. My work studies the relationship between geometry, algorithms, and computational complexity in structured puzzle-like systems.      
     skills:
       enable: false
       title: "Here are a few technologies I've been working with recently:"
@@ -196,7 +177,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - company: "Facebook"
@@ -236,90 +217,28 @@ params:
               - Lead backend developer for a product.
               - Created a frontend design for a product.
 
-      - company: "Apple"
-        companyUrl: "https://example.com"
-        jobs: 
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
-          featuredItems:
-            fontAwesomeIcons:
-              - icon: fa-brands fa-react
-                url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /fav.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Netflix"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "UI/UX Designer"
-          date: "June 2017 - Nov 2019"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Google"
-        companyUrl: "https://example.com"
-        jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
   # Education
   education:
     enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor of Science in Mathemathics"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Chiang Mai University"
+          url: "https://math.science.cmu.ac.th/?lg=en&"
+        date: "2020 - 2024"
+        GPA: "4.00 out of 4.00"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Over four years, I've conducted research under [Professor Supanut Chaidee's](https://schaidee.com/) guidance. During an internship at Tokyo University of Science with Professor Akiyama Jin, I focused on reversibility in non-space filling for my thesis. Eager to continue exploring mathematics and making meaningful contributions to the field.
         featuredLink:
           enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "My ResearchGate"
+          url: "https://www.researchgate.net/profile/Ponpailin-Homsombut"
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -341,7 +260,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
@@ -362,32 +281,9 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+      
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+      
 
   #Contact
   contact:
@@ -395,7 +291,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:ponpailinhomsombut@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -408,12 +304,11 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      facebook: https://facebook.com
+      github: https://github.com/ponpailinH
+      linkedin: https://www.linkedin.com/in/ponpailin-homsombut-4863a6255/details/education/
 
   # List pages like blogs and posts
   listPages:
@@ -421,14 +316,14 @@ params:
 
   # Single pages like blog and post
   singlePages:
-    socialShare: true
+    socialShare: false
     readTime:
-      enable: true
+      enable: false
       content: "min read"
     scrollprogress:
-      enable: true
+      enable: false
     tags:
-      openInNewTab: true
+      openInNewTab: false
 
   # For translations
   terms:
