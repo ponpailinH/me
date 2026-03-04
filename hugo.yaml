@@ -1,7 +1,7 @@
 #baseURL: "http://127.0.0.1:1313/public" ## for local live server
 baseURL: 'https://ponpailinH.github.io/me' ## for deploy to github pages at /docs
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Kiki Profile"
 theme: hugo-profile
 
 # Multilingual configuration
@@ -59,7 +59,7 @@ markup:
 
 params:
   title: "Kiki Profile"
-  description: Text about my cool site
+  description: My website
   # staticPath: ""  # The path to serve the static files from
   favicon: logo.jpg
 
