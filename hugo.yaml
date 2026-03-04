@@ -1,7 +1,7 @@
 #baseURL: "http://127.0.0.1:1313/public" ## for local live server
 baseURL: 'https://ponpailinH.github.io/me' ## for deploy to github pages at /docs
 languageCode: "en-us"
-title: "Kiki Profile"
+title: "Ponpailin Homsombut"
 theme: hugo-profile
 
 # Multilingual configuration
