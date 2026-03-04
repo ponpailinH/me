@@ -1,5 +1,5 @@
-baseURL: "http://127.0.0.1:1313/public" ## for local live server
-# baseURL: 'https://iambaangkok.github.io/me' ## for deploy to github pages at /docs
+#baseURL: "http://127.0.0.1:1313/public" ## for local live server
+baseURL: 'https://ponpailinH.github.io/me' ## for deploy to github pages at /docs
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
