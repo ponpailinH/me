@@ -150,11 +150,13 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
           url: "www.linkedin.com/in/ponpailin-homsombut-4863a6255"
-        - icon: fab fa-gmail
+        - icon: fas fa-envelope
           url: "mailto:ponpailinhomsombut@gmail.com"
-      customIcons:
-        - icon: logo.jpg
-          url: "https://example.com"
+        - icon: fab fa-researchgate
+          url: "https://www.researchgate.net/profile/Ponpailin-Homsombut"
+      #customIcons:
+        #- icon: logo.jpg
+          #url: "https://example.com"
 
   # About
   about:

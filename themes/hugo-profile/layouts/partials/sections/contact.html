@@ -6,7 +6,7 @@
         <div class="px-0 px-md-5 px-lg-5">
             <div class="row justify-content-center px-md-5">
                 <div class="col-md-8 py-3">
-                    <div class="text-center">
+                    <div class="text-center contact-content">
                         {{ $contact.content | emojify | markdownify }}
                     </div>
                     {{ if .Site.Params.contact.formspree.enable | default false }}

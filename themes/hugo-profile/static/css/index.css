@@ -194,6 +194,7 @@ header .navbar.animate {
 /* about me */
 #about h3 {
     color: var(--text-secondary-color) !important;
+    font-size: 36px;
 }
 
 #about .image img {
@@ -232,6 +233,7 @@ header .navbar.animate {
 
 #about .content {
     font-weight: 500;
+    font-size: 20px;
     opacity: 0.9 !important;
     line-height: 1.7rem !important;
 }
@@ -388,6 +390,7 @@ header .navbar.animate {
 
 #education .container > h3 {
     color: var(--text-secondary-color) !important;
+    font-size: 36px;
 }
 
 #education .row .index {
@@ -417,6 +420,11 @@ header .navbar.animate {
 #education .card .card-body {
     border-radius: 1.5rem;
     padding: 2rem;
+    font-size: 20px;
+}
+
+#education .card .card-body .card-title {
+    font-size: 28px;
 }
 
 @media all and (max-width:768px) {
@@ -441,6 +449,7 @@ header .navbar.animate {
     display: inline-block;
     text-decoration: none;
     color: var(--text-link-color) !important;
+    font-size: 24px;
 }
 
 #education .card .card-body > a h6::after {
@@ -465,6 +474,8 @@ header .navbar.animate {
     border-radius: .75rem;
     box-shadow: none;
     transition: none;
+    margin-top: 0.5cm;
+    font-size: 18px;
 }
 
 #education .card .card-body a.btn:hover {
@@ -517,6 +528,11 @@ header .navbar.animate {
 
 #contact h3 {
     color: var(--text-secondary-color) !important;
+    font-size: 36px;
+}
+
+#contact .contact-content {
+    font-size: 24px;
 }
 
 #contact .btn {
@@ -526,6 +542,7 @@ header .navbar.animate {
     border-color: var(--primary-color) !important;
     background-color: var(--secondary-color) !important;
     color: var(--text-color) !important;
+    font-size: 18px;
 }
 
 #contact .btn:hover {
