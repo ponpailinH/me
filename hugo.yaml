@@ -160,7 +160,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "images/me.png"
+    image: "images/me.jpg"
     content: |-
       I am a master’s student at the Japan Advanced Institute of Science and Technology (JAIST) working in the [Uehara Laboratory](https://www.jaist.ac.jp/english/laboratory/cs/uehara.html). With a background in mathematics, my research focuses on theoretical computer science, particularly computational geometry and tiling problems.
 
@@ -289,7 +289,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open. Whether you have a question or just want to say hi to ponpailinhomsombut@gmail.com, I’ll try my best to get back to you!
     btnName: Mail me
     btnLink: mailto:ponpailinhomsombut@gmail.com
     # formspree:
