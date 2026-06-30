@@ -1,0 +1,17 @@
+{{ if .Site.Params.announcement.enable | default false }}
+{{- $announcement := .Site.Language.Params.announcement | default .Site.Params.announcement -}}
+<section id="announcement" class="py-0 py-sm-5">
+    <div class="container bg-transparent">
+        <h3 class="text-center bg-transparent">{{ $announcement.title | default "Announcement" }}</h3>
+        <div class="bg-transparent row justify-content-center px-3 py-5">
+            <div class="col-sm-12 col-md-12 col-lg-8 content">
+                <ul>
+                    {{ range $announcement.content }}
+                    <li>{{ . | markdownify }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

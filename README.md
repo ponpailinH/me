@@ -14,7 +14,7 @@
 
 # Development, Build, Publish
 * set `baseUrl` in `hugo.toml`
-* local-dev with `hugo server --disableFastRender`
+* local-dev with `hugo server --disableFastRender -p 1313`
 * build with hugo: `hugo`
 * sync `/public` to `/docs`: `python .\sync_files.py`
 * commit & push

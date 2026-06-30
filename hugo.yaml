@@ -1,4 +1,4 @@
-#baseURL: "http://127.0.0.1:1313/public" ## for local live server
+# baseURL: "http://127.0.0.1:1313/public" ## for local live server
 baseURL: 'https://ponpailinH.github.io/me' ## for deploy to github pages at /docs
 languageCode: "en-us"
 title: "Ponpailin Homsombut"
@@ -123,6 +123,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
+      disableAnnouncement: false
       disableExperience: false
       disableEducation: false
       disableProjects: false
@@ -176,6 +177,15 @@ params:
         - "React"
         - "Node"
         - "Express"
+
+  # Announcement
+  announcement:
+    enable: true
+    title: "Announcement"
+    content:
+      - "**August 2026** - Going to CCCG!"
+      - "**June 2026** - My 1st paper accepted to [CCCG 2026](https://sites.google.com/view/cccg-2026/registration?authuser=0)!! The paper *Undecidability of Symmetric Shape Puzzle* has been accepted to the Canadian Conference on Computational Geometry (CCCG 2026). Joint work with [Tonan Kamata](https://tonankamata.github.io/), and [Ryuhei Uehara](https://www.jaist.ac.jp/~uehara/). See you in Orillia!"
+
 
   # Experience
   experience:
